@@ -17,10 +17,10 @@ class DecryptionFragment : Fragment() {
 
     }
     fun ceaserdecryption(cipherTxt : String, shift : Int): String {
-        val alpha: String ="abcdefghijklmnopqrstuvwxyz"
+        val alpha ="abcdefghijklmnopqrstuvwxyz"
         val cipherTxt :String = cipherTxt
         val shift:Int =shift
-        var plainText :String =" "
+        var plainText =" "
         for (character in cipherTxt ) {
             for (char in alpha) {
                 if (character == char) {

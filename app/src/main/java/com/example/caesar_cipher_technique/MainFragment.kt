@@ -41,7 +41,7 @@ class MainFragment : Fragment() {
         DecryptionBtn.setOnClickListener { changeFragment(DecryptionFragment())
           }
 
-        return v;
+        return v
     }
 
 

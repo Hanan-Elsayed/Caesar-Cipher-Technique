@@ -15,10 +15,10 @@ class EncryptionFragment : Fragment() {
 
     }
 fun Ceaser_Encryption( Plain_Txt : String, shift : Int): String {
-    val alpha: String ="abcdefghijklmnopqrstuvwxyz"
+    val alpha ="abcdefghijklmnopqrstuvwxyz"
     val plainText :String = Plain_Txt
-    val shift:Int =shift
-    var cipherTxt :String =" "
+    val shift =shift
+    var cipherTxt =" "
     for (character in plainText ) {
         for (char in alpha) {
             if (character == char) {
@@ -38,7 +38,7 @@ fun Ceaser_Encryption( Plain_Txt : String, shift : Int): String {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        var v = inflater.inflate(R.layout.fragment_encryption, container, false)
+        val v = inflater.inflate(R.layout.fragment_encryption, container, false)
         val siftET = v.findViewById<EditText>(R.id.shift_Edit_Text)
         val plainET = v.findViewById<EditText>(R.id.Plain_Txt_Edit_Text)
         val cipherEt =v.findViewById<EditText>(R.id.Cipher_Txt_Edit_Text)
