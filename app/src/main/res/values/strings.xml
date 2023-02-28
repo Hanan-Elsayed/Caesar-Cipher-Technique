@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Caesar_Cipher_Technique</string>
+    <string name="title">Caesar Cipher Technique</string>
+    <string name="Encryption_Btn">Encryption</string>
+    <string name="Decryption_Btn">Decryption</string>
+    <string name="Shift_Value">Shift Value :-</string>
+    <string name="Shift_Value_Hint">Enter Shift Value</string>
+    <string name="Cipher_Text">Cipher Text :-</string>
+    <string name="Decryption_Cipher_Text_Hint">Enter Cipher Text</string>
+    <string name="Encryption_Cipher_Text_Hint">Your Cipher Text Will Appear Here</string>
+    <string name="Plain_Text">Plain Text :-</string>
+    <string name="Decryption_Plain_Text_Hint">Your Plain Text Will Appear Here</string>
+    <string name="Encryption_Plain_Text_Hint">Enter Plain Text</string>
+    <string name="Encrypt_Btn">Encrypt</string>
+    <string name="Decrypt_Btn">Decrypt</string>
+</resources>

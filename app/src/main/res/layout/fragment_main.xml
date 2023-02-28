@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/containerBackgroundClr"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment"
+
+    >
+
+    <Button
+        android:id="@+id/Encryption_Btn"
+        android:layout_width="@dimen/_190sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_marginLeft="@dimen/_62sdp"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:text="@string/Encryption_Btn"
+        android:textColor="@color/containerBackgroundClr"
+        android:backgroundTint="@color/txt_btn_Clr"
+        android:textStyle="bold|italic"
+        android:fontFamily="serif"
+        android:textSize="@dimen/_21sdp"
+        />
+    <Button
+        android:id="@+id/Decryption_Btn"
+        android:layout_width="@dimen/_190sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_marginLeft="@dimen/_62sdp"
+        android:layout_marginTop="@dimen/_180sdp"
+        android:text="@string/Decryption_Btn"
+        android:textColor="@color/containerBackgroundClr"
+        android:backgroundTint="@color/txt_btn_Clr"
+        android:textStyle="bold|italic"
+
+        android:fontFamily="serif"
+        android:textSize="@dimen/_21sdp"
+
+        />
+
+</FrameLayout>
