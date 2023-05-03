@@ -1,5 +1,6 @@
 package com.example.caesar_cipher_technique
 
+import android.graphics.Color
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -48,6 +49,8 @@ fun Ceaser_Encryption( Plain_Txt : String, shift : Int): String {
             val plainText : String=plainET.text.toString()
 
             cipherEt.setText(Ceaser_Encryption(plainText, siftValue!!))
+            cipherEt.setTextColor(Color.parseColor("#ff1515"))
+
         }
 return v
     }

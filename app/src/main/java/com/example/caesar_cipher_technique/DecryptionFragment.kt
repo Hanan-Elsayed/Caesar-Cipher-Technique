@@ -1,5 +1,6 @@
 package com.example.caesar_cipher_technique
 
+import android.graphics.Color
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -48,8 +49,10 @@ class DecryptionFragment : Fragment() {
         decryptBtn.setOnClickListener {
             val siftValue : Int? =shiftET.text.toString().toIntOrNull()
             val cipherText : String=cipherEt.text.toString()
-
             plainET.setText(ceaserdecryption(cipherText, siftValue!!))
+            plainET.setTextColor(Color.parseColor("#ff1515"))
+
+
         }
         return v
     }
